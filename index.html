@@ -131,7 +131,7 @@
         }
         const calculate = () => {
             console.log("geg");
-            fetch(`https://arithmetic-service-ybp6.onrender.com/add/${outputDiv.value}`)
+            fetch(`https://arithmetic-service-ybp6.onrender.com/calculate/${outputDiv.value}`)
                 .then(response => response.text())
                 .then(data => {
                     outputDiv.value = data;
